@@ -36,6 +36,9 @@ $(window).scroll(function(){
       $('.swipe').css({'display': 'block'})
   }
 });
+$('[data-aos]').parent().addClass('hideOverflowOnMobile');
+
+
 
 
 

@@ -9,6 +9,7 @@
 body{
         background-color: rgba(255, 125, 78, 0.198);
         width: 100vw!important;
+        overflow-x: hidden;
 
 
 }
@@ -284,7 +285,6 @@ z-index: 2;
     font-weight: 900;
     font-size: 3rem;
     color: #1a3c52;
-    text-shadow: 2px 2px 1px #1a3c52;
 
 }
 .h1even{
@@ -293,7 +293,6 @@ z-index: 2;
     font-weight: 900;
     font-size: 3rem;
     color: rgb(255, 68, 0);
-    text-shadow: 2px 2px 1px #1a3c52;
     text-align: right;
 
 }
@@ -551,6 +550,16 @@ z-index: 2;
 
     }
 }
+@media (min-width: 210px) {
+.hideOverflowOnMobile {
+overflow: hidden;
+}
+}
+
+
 #swipe .diss{
     display: none!important;
+}
+.img-info1{
+    width: 70%;
 }
