@@ -5,11 +5,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body{
         background-color: rgba(255, 125, 78, 0.198);
-        overflow: scroll;
+        width: 100vw!important;
+
 
 }
 .topnav{
