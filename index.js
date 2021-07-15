@@ -55,4 +55,8 @@ $('[data-aos]').parent().addClass('hideOverflowOnMobile');
 // $(window).scroll(function () {
 //     btnview.toggleClass('btntop', $(this).scrollTop() > 400);
 // });
+const prebox  = $(".preloader-box")
+  setTimeout(function(){
+    prebox.fadeToggle();
+  },1750);
 
