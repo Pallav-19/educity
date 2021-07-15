@@ -28,19 +28,16 @@ body{
 .preloader {
     width: 6rem;
     position: absolute;
-    top: 70vh;
+    top: 200vh;
     left:45vw;
     display: hidden;
-    animation: preloader 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s 1  ;
+    animation: preloader 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s 1  ;
 }
 @keyframes preloader{
     0%{
-        display: inline-block;
-    }
-    5%{
         top: 200vh;
         left: 50vw;
-        transform: rotate(10deg);        display: inline-block;
+        transform: rotate(10deg);     display: inline-block;   
 
 
     }
