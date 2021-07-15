@@ -56,7 +56,15 @@ $('[data-aos]').parent().addClass('hideOverflowOnMobile');
 //     btnview.toggleClass('btntop', $(this).scrollTop() > 400);
 // });
 const prebox  = $(".preloader-box")
-  setTimeout(function(){
+
+function preloader(){
+    setTimeout(function(){
     prebox.fadeToggle();
   },1750);
+
+}
+$(document).load(preloader());
+  // setTimeout(function(){
+  //   prebox.fadeToggle();
+  // },1750);
 
