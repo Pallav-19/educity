@@ -107,5 +107,3 @@ $('.btn2').on('mouseout',function(e){
 
 
 
-
-

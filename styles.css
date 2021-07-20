@@ -191,8 +191,8 @@ body {
   color: rgb(255, 68, 0);
   animation: swipe 0.6s ease-in 1s infinite both alternate;
 }
-.a h1{
-    font-size: 6rem;
+.a h1 {
+  font-size: 6rem;
 }
 .custom-container {
   height: 100vh;
@@ -250,7 +250,7 @@ body {
   transform: translate(100%, 0);
   background-color: rgba(255, 255, 255, 0.452);
   backdrop-filter: blur(8px);
-  text-align: left!important;
+  text-align: left !important;
 }
 .slider {
   transform: translate(0, 0);
@@ -258,34 +258,31 @@ body {
 .icon.icon-color {
   color: #1a3c52 !important;
 }
-.slide-links{
-    position:absolute;
-        top: 20%;
-        left: 25%;
-    }
-    .slide-linkschild {
-        text-decoration: none;
-        list-style: none;
-    }
-        .slide-linkschild a {
-        text-decoration: none;
-        color: rgb(255, 68, 0);
-        display: inline-block;
-        z-index:  100000;
-        font-weight: 900;
-        font-size: 1.8rem;
-        font-family: "Roboto Mono", monospace;
-        text-decoration: none;
-        text-align: left;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-
-
-    }
-
+.slide-links {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+.slide-linkschild {
+  text-decoration: none;
+  list-style: none;
+}
+.slide-linkschild a {
+  text-decoration: none;
+  color: rgb(255, 68, 0);
+  display: inline-block;
+  z-index: 100000;
+  font-weight: 900;
+  font-size: 1.8rem;
+  font-family: "Roboto Mono", monospace;
+  text-decoration: none;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
 .slide-linkschild a:hover {
-  color: #1a3c52!important;
+  color: #1a3c52 !important;
   text-decoration: none;
 }
 
@@ -348,12 +345,16 @@ body {
 }
 
 @media (max-width: 932px) and (min-width: 531px) {
-        .a h1{
-        font-size: 3.3rem !important;
-    }
-    .slide-links a{
-        font-size: 2.3rem;
-    }
+    .footer{
+    height: 25vh;
+  }
+
+  .a h1 {
+    font-size: 3.3rem !important;
+  }
+  .slide-links a {
+    font-size: 2.3rem;
+  }
 
   .h1oddp {
     font-family: "Roboto Mono", monospace;
@@ -364,8 +365,9 @@ body {
     font-size: 1.3rem;
     font-weight: 900;
   }
-      .register , .register2{
-      display: none!important;
+  .register,
+  .register2 {
+    display: none !important;
   }
   .h1evenp {
     font-family: "Roboto Mono", monospace;
@@ -400,8 +402,8 @@ body {
   .navLinks {
     display: none;
   }
-  .register{
-      display: none;
+  .register {
+    display: none;
   }
   .custom-coloumn-1 p {
     font-size: 2rem;
@@ -427,12 +429,16 @@ body {
   }
 }
 @media (max-width: 360px) {
-        .a h1{
-        font-size: 2rem !important;
-    }
+  .footer{
+    height: 10vh;
+  }
+  .a h1 {
+    font-size: 2rem !important;
+  }
 
-      .register , .register2{
-      display: none!important;
+  .register,
+  .register2 {
+    display: none !important;
   }
 
   .h1oddp {
@@ -476,8 +482,8 @@ body {
   .navLinks {
     display: none;
   }
-  .register{
-      display: none;
+  .register {
+    display: none;
   }
 
   .custom-coloumn-1 p {
@@ -496,19 +502,24 @@ body {
     margin: 0 auto;
     height: auto;
   }
-  .slide-links a{
+  .slide-links a {
     font-size: 1.2rem;
   }
 }
 @media (max-width: 530px) and (min-width: 361px) {
-    .a h1{
-        font-size: 2.2rem !important;
-    }
-    .slide-links a{
-        font-size: 1.4rem;
-    }
-      .register , .register2{
-      display: none!important;
+    .footer{
+    height: 20vh;
+  }
+
+  .a h1 {
+    font-size: 2.2rem !important;
+  }
+  .slide-links a {
+    font-size: 1.4rem;
+  }
+  .register,
+  .register2 {
+    display: none !important;
   }
 
   .h1oddp {
@@ -553,8 +564,8 @@ body {
   .navLinks {
     display: none;
   }
-  .register{
-      display: none;
+  .register {
+    display: none;
   }
 
   .custom-coloumn-1 p {
@@ -600,49 +611,47 @@ body {
 #btnScrollTop.btntop {
   display: block !important;
   z-index: 99 !important;
-  animation: btnview 1s cubic-bezier(0.075, 0.82, 0.165, 1) alternate 1 ;
+  animation: btnview 1s cubic-bezier(0.075, 0.82, 0.165, 1) alternate 1;
 }
-@keyframes btnview{
-    0%{
-        transform: scale(0);
-    }
-    100%{
-        transform: scale(3rem);
-    }
+@keyframes btnview {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(3rem);
+  }
 }
-.register{
+.register {
   font-size: 1.3rem;
-  text-align: center!important;
+  text-align: center !important;
   /* height: 85%; */
-  background : transparent;
-  border-radius: .2rem;
+  background: transparent;
+  border-radius: 0.2rem;
   font-weight: 700;
   letter-spacing: 2px;
-  color:#ffffff;
-  padding : 0.5rem 0.8rem;
+  color: #ffffff;
+  padding: 0.5rem 0.8rem;
   background: rgba(255, 68, 0, 0.76);
   z-index: 20000;
   font-family: "Poppins", sans-serif;
   display: inline-block;
   position: absolute;
-  right: 12%;
+  right: 2%;
   top: 50%;
-  transform: translate(0%, -50%);
+  transform: translate(-2%, -50%);
   box-shadow: 2px 2px 3px #1a3c52;
   overflow: hidden;
-  
- 
 }
-.register2{
+.register2 {
   font-size: 1.2rem;
-  text-align: center!important;
+  text-align: center !important;
   /* height: 85%; */
-  background : transparent;
-  border-radius: .2rem;
+  background: transparent;
+  border-radius: 0.2rem;
   font-weight: 900;
   letter-spacing: 2px;
-  background-color:#ffffff77;
-  padding : 0.5rem 0.8rem;
+  background-color: #ffffff77;
+  padding: 0.5rem 0.8rem;
   color: rgba(255, 68, 0, 0.863);
   z-index: 20000;
   font-family: "Poppins", sans-serif;
@@ -650,78 +659,236 @@ body {
   position: absolute;
   right: 2%;
   top: 50%;
-  transform: translate(0%, -50%);
+  transform: translate(-2%, -50%);
   border: solid 0.8px;
   box-shadow: 2px 2px 3px rgb(255, 68, 0);
   overflow: hidden;
   transition: 0.5s;
-  
- 
 }
 .register2 span {
-    position: absolute;
-    height: 0;
-    width: 0;
-    border-radius: 50%;
-    background: rgba(255, 68, 0, 0.726);
-    /* backdrop-filter: blur(5px); */
-    display: block;
-    z-index: -1;
-    transform: translate(-50%,-50%);
-    overflow: hidden;
-    transition: width 0.5s, height 0.5s;
-    
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  background: rgba(255, 68, 0, 0.726);
+  /* backdrop-filter: blur(5px); */
+  display: block;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  transition: width 0.5s, height 0.5s;
 }
-.register2:hover span{
-    height: 12rem;
-    width: 12rem;
-
+.register2:hover span {
+  height: 12rem;
+  width: 12rem;
 }
 .register span {
-    position: absolute;
-    height: 0;
-    width: 0;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.829);
-    /* backdrop-filter: blur(5px); */
-    display: block;
-    z-index: -1;
-    transform: translate(-50%,-50%);
-    overflow: hidden;
-    transition: width 0.5s, height 0.5s;
-    
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.829);
+  /* backdrop-filter: blur(5px); */
+  display: block;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  transition: width 0.5s, height 0.5s;
 }
-.register:hover span{
-    height: 12rem;
-    width: 12rem;
-
+.register:hover span {
+  height: 12rem;
+  width: 12rem;
 }
 
 .register2:hover {
-    color: #ffffff;
-    cursor: pointer;
-
+  color: #ffffff;
+  cursor: pointer;
 }
 .register:hover {
-    color: rgb(255, 68, 0);
-    cursor: pointer;
+  color: rgb(255, 68, 0);
+  cursor: pointer;
+}
+.benifits {
+  font-size: 6rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.85;
+  font-weight: 900;
+  margin: 0 auto;
+  color: rgb(255, 68, 0);
+  text-shadow: 2px 2px black;
+  transition: 0.5s;
+}
+.coursesh1 {
+  margin-top: 15vh;
+}
+.courseCol {
+  /* width: 25%; */
+  text-align: center;
+  padding: 0.2rem 0.2rem;
+  margin: 0;
+}
+.courseRow {
+  width: 100%;
+  /* height: 25vh; */
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.courseimg {
+  width: 10vw;
+  height: auto;
+}
+.coursedesc {
+  font-size: clamp(0.1rem, 3vw, 2rem);
+  color: #1a3c52;
+  font-family: "Poppins", sans-serif;
+}
+.cardbody {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.courseRow .courseCol {
+  margin: 0;
+}
+.courseCol {
+  width: 25%;
+  /* z-index: 30; */
+  transition: all 0.3s ease-out !important;
+  transition: transform 0.55s ease-in;
 
 }
-.benifits{
-    font-size: 6rem;
-    text-align: center;
+@media (max-width: 578px) and (min-width: 180px) {
+  .courseCol {
+    width: 48%;
+  }
+}
+/* .courseRow > .courseCol> .courseContent:hover, .courseRow > .courseCol> .courseContent:focus{
+  opacity: 0 !important;
+  cursor: pointer;
+
+} */
+.cardContent {
+  height: 100%;
+  width: 100%;
+  background-color: #1a3c5210;
+  border: 0.25px solid #1a3c523a;
+  border-radius: 0.25rem;
+
+}
+.courseCol:hover .cardContent {
+  opacity: 0.031 !important;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.courseCol:hover{
+  background-color: transparent;
+}
+.modala{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 68, 0, 0.192);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0%,0%);
+  text-align: center;
+  display: none;
+  transition: 0.33s ease-in;
+}
+.modala p{
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  color: rgb(255, 68, 0);
+  font-family: "Roboto Mono", monospace;
+  font-weight: 900;
+  font-size: clamp(0.1rem , 2vw , 1.5rem);
+
+
+
+}
+.courseCol:hover .modala{
+  display: inline-block;
+}
+.card-header{
+  background-color: #1a3c5225;
+  /* text-align: center; */
+}
+.card-header h3{
+  color: #1a3c52;
     font-family: "Poppins", sans-serif;
-    opacity: .85;
-    font-weight: 900;
-    margin: 0 auto;
-    color: rgb(255, 68, 0);
-    text-shadow: 2px 2px black;
-    transition: .5s;
-
 
 }
-.courses{
-   height: 100vh;
+.card > .card-body{
+  background: #1a3c520e;
+}
+.card-body h2 {
+  color: rgb(255, 68, 0);
+    font-family: "Poppins", sans-serif;
+
+}
+.card-body p{
+  color: #1a3c52;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 900;
+
+}
+.card-body > .btni{
+  background: transparent!important;
+  color: #1a3c52 !important;
+  border:  1px solid !important;
+}
+.btn-outline-dark{
+    font-family: "Poppins", sans-serif;
+    color: #1a3c52;
+    border: 1px solid #1a3c52;
+
+}
+.btn-outline-dark:hover{
+  background-color: #1a3c52 !important;
+}
+.btn-dark{
+  background-color: #1a3c52e3;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+
+}
+.btn-dark:hover{
+  background-color: #1a3c52;
+}
+.card{
+  background-color: transparent;
+}
+ #footer
+ {
+   text-align: center;
+   padding: 5% 8%;
+   height: 40vh;
    width: 100vw;
-   
-}
+   background-color: #1a3c520e;
+   margin: 0;
+   margin-top: 4vh;
+ }
+ .copyright-p
+ {
+   font-size: 01rem;
+   padding-top: 2%;
+
+ }
+ .footer-link
+
+ {
+   font-size: 2rem;
+   padding: 0% 2%;
+   color: #1a3c52;
+ }
+ .footer-link:hover{
+   color: rgb(255, 68, 0);
+ }
